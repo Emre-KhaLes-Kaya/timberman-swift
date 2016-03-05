@@ -311,7 +311,6 @@
 			children = (
 				3FA0FA0D1C8A80A200A3398A /* BMGlyphLabel */,
 				3FA0FA101C8A80A200A3398A /* ObjectAL */,
-				3FA0FA651C8A80A200A3398A /* SKTUtils */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -476,13 +475,6 @@
 				3FA0FA641C8A80A200A3398A /* ObjectAL (OSX)-Prefix.pch */,
 			);
 			path = OSX;
-			sourceTree = "<group>";
-		};
-		3FA0FA651C8A80A200A3398A /* SKTUtils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SKTUtils;
 			sourceTree = "<group>";
 		};
 		3FA0FA661C8A80A200A3398A /* Music */ = {
@@ -971,6 +963,7 @@
 				3FA0F9F71C8A807800A3398A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FA0F9F81C8A807800A3398A /* Build configuration list for PBXNativeTarget "TimberJimTests" */ = {
 			isa = XCConfigurationList;
@@ -979,6 +972,7 @@
 				3FA0F9FA1C8A807800A3398A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FA0F9FB1C8A807800A3398A /* Build configuration list for PBXNativeTarget "TimberJimUITests" */ = {
 			isa = XCConfigurationList;
@@ -987,6 +981,7 @@
 				3FA0F9FD1C8A807800A3398A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
