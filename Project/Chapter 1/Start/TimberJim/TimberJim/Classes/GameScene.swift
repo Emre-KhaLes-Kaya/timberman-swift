@@ -37,6 +37,7 @@ class GameScene: SKScene {
         self.addChild(label)
     }
     
+    // MARK: - Touch Events
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         let touch:UITouch = touches.first! as UITouch
         let touchLocation = touch.locationInNode(self)
@@ -48,12 +49,20 @@ class GameScene: SKScene {
     }
     
     
+    // MARK: - Update
     override func update(currentTime: NSTimeInterval) {
         let delta = currentTime - self.lastUpdateTime
         self.lastUpdateTime = currentTime
         
         if kDebug {
             print(delta)
+        }
+    }
+    
+    // MARK: - De-Init
+    deinit {
+        if kDebug {
+            print("Destroying GameScene")
         }
     }
 }

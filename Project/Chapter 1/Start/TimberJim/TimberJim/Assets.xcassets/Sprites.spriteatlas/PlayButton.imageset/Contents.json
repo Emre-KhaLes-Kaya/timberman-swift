@@ -2,27 +2,27 @@
   "images" : [
     {
       "idiom" : "iphone",
-      "filename" : "TimeBar.png",
+      "filename" : "PlayButton.png",
       "scale" : "1x"
     },
     {
       "idiom" : "iphone",
-      "filename" : "TimeBar@2x.png",
+      "filename" : "PlayButton@2x.png",
       "scale" : "2x"
     },
     {
       "idiom" : "iphone",
-      "filename" : "TimeBar@3x.png",
+      "filename" : "PlayButton@3x.png",
       "scale" : "3x"
     },
     {
       "idiom" : "ipad",
-      "filename" : "TimeBar~ipad.png",
+      "filename" : "PlayButton~ipad.png",
       "scale" : "1x"
     },
     {
       "idiom" : "ipad",
-      "filename" : "TimeBar@2x~ipad.png",
+      "filename" : "PlayButton@2x~ipad.png",
       "scale" : "2x"
     }
   ],
