@@ -8,7 +8,7 @@
 
 import SpriteKit
 
-class GameScene: SKScene, SKPhysicsContactDelegate {
+class GameScene: SKScene {
     
     // MARK: - Private class constants
     private let clouds = Clouds()
@@ -30,8 +30,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     override func didMoveToView(view: SKView) {
-        self.physicsWorld.contactDelegate = self
-        self.physicsWorld.gravity = CGVectorMake(0, 0)
     }
     
     // MARK: - Setup

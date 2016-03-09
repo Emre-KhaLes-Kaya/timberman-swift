@@ -46,5 +46,6 @@ class Branch:SKSpriteNode {
         self.physicsBody?.categoryBitMask = Contact.Branch
         self.physicsBody?.collisionBitMask = 0x0
         self.physicsBody?.contactTestBitMask = Contact.Player
+        self.physicsBody?.affectedByGravity = false
     }
 }
