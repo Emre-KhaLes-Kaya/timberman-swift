@@ -6,7 +6,7 @@ Together we’ll build a complete game step by step using SpriteKit and Swift.
 
 All you need is a Mac and <a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12">Xcode</a> which can be downloaded for free from the Mac App Store. I’ve provided everything else. Let’s get started!
 
-### Keeping the downloaded up to date with changes
+### Keeping the downloaded source code up to date with changes
 1 - Choose a location on your Mac to keep the original source code. In this example we'll make a Source folder in your Documents folder.
 ```bash
 mkdir ~/Documents/Source
