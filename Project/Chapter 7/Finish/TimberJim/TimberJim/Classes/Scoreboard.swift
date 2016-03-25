@@ -36,14 +36,14 @@ class Scoreboard:SKNode {
         let font = BMGlyphFont(name: "GameFont")
         
         // Score label
-        let currentScore = BMGlyphLabel(txt: String(score), fnt: font)
+        let currentScore = BMGlyphLabel(text: String(score), font: font)
         currentScore.position = CGPoint(x: 0, y: background.size.height * 0.15 )
-        currentScore.textJustify = BMGlyphLabel.BMGlyphJustify.Left
+        currentScore.textJustify = BMGlyphJustifyLeft
         
         // Best score label
-        let bestScore = BMGlyphLabel(txt: String(GameSettings.sharedInstance.getBestScore()), fnt: font)
+        let bestScore = BMGlyphLabel(text: String(GameSettings.sharedInstance.getBestScore()), font: font)
         bestScore.position = CGPoint(x: 0, y: -background.size.height * 0.25)
-        bestScore.textJustify = BMGlyphLabel.BMGlyphJustify.Left
+        bestScore.textJustify = BMGlyphJustifyLeft
         
         background.addChild(currentScore)
         background.addChild(bestScore)

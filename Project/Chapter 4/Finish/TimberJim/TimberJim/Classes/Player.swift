@@ -66,7 +66,7 @@ class Player:SKSpriteNode {
     
     // MARK: - Chop
     func chopLeft() {
-        self.taps++
+        self.taps += 1
         
         self.position = self.leftSide
         
@@ -76,7 +76,7 @@ class Player:SKSpriteNode {
     }
     
     func chopRight() {
-        self.taps++
+        self.taps += 1
         
         self.position = self.rightSide
         

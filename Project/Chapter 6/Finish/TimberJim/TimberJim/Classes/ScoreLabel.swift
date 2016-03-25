@@ -11,7 +11,7 @@ import SpriteKit
 class ScoreLabel:SKNode {
     
     // MARK: - Private class constants
-    private let scoreLabel = BMGlyphLabel(txt: "0", fnt: BMGlyphFont(name: "GameFont"))
+    private let scoreLabel = BMGlyphLabel(text: "0", font: BMGlyphFont(name: "GameFont"))
     
     // MARK: - Init
     required init?(coder aDecoder: NSCoder) {
@@ -34,6 +34,7 @@ class ScoreLabel:SKNode {
     
     // MARK: - Public Actions
     func updateLabel(score score: Int) {
-        self.scoreLabel.setGlyphText(String(score))
+//        self.scoreLabel.setGlyphText(String(score))
+        self.scoreLabel.text = String(score)
     }
 }

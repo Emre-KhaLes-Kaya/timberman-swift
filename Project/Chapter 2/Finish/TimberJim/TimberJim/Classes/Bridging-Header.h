@@ -10,5 +10,7 @@
 #define Bridging_Header_h
 
 #import "OALSimpleAudio.h"
+#import "BMGlyphFont.h"
+#import "BMGlyphLabel.h"
 
 #endif /* Bridging_Header_h */

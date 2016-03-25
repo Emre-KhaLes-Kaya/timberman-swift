@@ -57,7 +57,7 @@ class StackController:SKNode {
         
         basePosition = CGPoint(x: kViewSize.width / 2, y: kViewSize.height * 0.3)
         
-        for var i = 0; i < 12; i++ {
+        for i in 0 ..< 12 {
             let log = spriteArray[i % 2].copy() as! SKSpriteNode
             
             log.position = CGPoint(x: basePosition.x, y: basePosition.y + CGFloat(i) * log.size.height)
@@ -125,7 +125,7 @@ class StackController:SKNode {
             self.spawnBranch(log: log)
             
             // Set position
-            for var i = 0; i < self.pieceArray.count; i++ {
+            for i in 0 ..< self.pieceArray.count {
                 let chunk = self.pieceArray[i]
                 chunk.position = CGPoint(x: self.basePosition.x, y: self.basePosition.y + CGFloat(i) * chunk.size.height)
             }

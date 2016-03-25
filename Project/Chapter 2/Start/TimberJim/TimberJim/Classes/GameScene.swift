@@ -32,7 +32,7 @@ class GameScene: SKScene {
         self.backgroundColor = SKColor.blackColor()
         
         let font = BMGlyphFont(name: "GameFont")
-        let label = BMGlyphLabel(txt: "Yay, it works!", fnt: font)
+        let label = BMGlyphLabel(text: "Yay, it works!", font: font)
         label.position = CGPoint(x: kViewSize.width / 2, y: kViewSize.height / 2)
         self.addChild(label)
     }
