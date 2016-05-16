@@ -18,6 +18,9 @@
 		3F493E521C9091560057ED0A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F493E511C9091560057ED0A /* Player.swift */; };
 		3F493E551C91E00B0057ED0A /* TutorialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F493E541C91E00B0057ED0A /* TutorialButton.swift */; };
 		3F493E571C91E32E0057ED0A /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F493E561C91E32E0057ED0A /* PlayButton.swift */; };
+		3F98AF941CEA256800ADC72B /* Credits.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F98AF921CEA256800ADC72B /* Credits.txt */; };
+		3F98AF951CEA256800ADC72B /* SpiritualMoments.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F98AF931CEA256800ADC72B /* SpiritualMoments.mp3 */; };
+		3F98AF971CEA257600ADC72B /* GameFont@3x.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F98AF961CEA257600ADC72B /* GameFont@3x.xml */; };
 		3FA0F9D61C8A807800A3398A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA0F9D41C8A807800A3398A /* Main.storyboard */; };
 		3FA0F9D81C8A807800A3398A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA0F9D71C8A807800A3398A /* Assets.xcassets */; };
 		3FA0F9E61C8A807800A3398A /* TimberJimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0F9E51C8A807800A3398A /* TimberJimTests.swift */; };
@@ -70,7 +73,6 @@
 		3FA0FA9A1C8A80A200A3398A /* OALTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0FA5D1C8A80A200A3398A /* OALTools.m */; };
 		3FA0FA9B1C8A80A200A3398A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FA0FA611C8A80A200A3398A /* InfoPlist.strings */; };
 		3FA0FA9C1C8A80A200A3398A /* ObjectAL (OSX)-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FA0FA631C8A80A200A3398A /* ObjectAL (OSX)-Info.plist */; };
-		3FA0FA9D1C8A80A200A3398A /* Burgers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FA0FA671C8A80A200A3398A /* Burgers.mp3 */; };
 		3FA0FA9E1C8A80A200A3398A /* Chop.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3FA0FA691C8A80A200A3398A /* Chop.caf */; };
 		3FA0FA9F1C8A80A200A3398A /* GameOver.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3FA0FA6A1C8A80A200A3398A /* GameOver.caf */; };
 		3FA0FAA41C8A80F700A3398A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0FAA11C8A80F700A3398A /* AppDelegate.swift */; };
@@ -110,6 +112,9 @@
 		3F493E511C9091560057ED0A /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		3F493E541C91E00B0057ED0A /* TutorialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialButton.swift; sourceTree = "<group>"; };
 		3F493E561C91E32E0057ED0A /* PlayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		3F98AF921CEA256800ADC72B /* Credits.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Credits.txt; sourceTree = "<group>"; };
+		3F98AF931CEA256800ADC72B /* SpiritualMoments.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SpiritualMoments.mp3; sourceTree = "<group>"; };
+		3F98AF961CEA257600ADC72B /* GameFont@3x.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont@3x.xml"; sourceTree = "<group>"; };
 		3FA0F9C91C8A807800A3398A /* TimberJim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimberJim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA0F9D51C8A807800A3398A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FA0F9D71C8A807800A3398A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -205,7 +210,6 @@
 		3FA0FA621C8A80A200A3398A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3FA0FA631C8A80A200A3398A /* ObjectAL (OSX)-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ObjectAL (OSX)-Info.plist"; sourceTree = "<group>"; };
 		3FA0FA641C8A80A200A3398A /* ObjectAL (OSX)-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ObjectAL (OSX)-Prefix.pch"; sourceTree = "<group>"; };
-		3FA0FA671C8A80A200A3398A /* Burgers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Burgers.mp3; sourceTree = "<group>"; };
 		3FA0FA691C8A80A200A3398A /* Chop.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chop.caf; sourceTree = "<group>"; };
 		3FA0FA6A1C8A80A200A3398A /* GameOver.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GameOver.caf; sourceTree = "<group>"; };
 		3FA0FAA11C8A80F700A3398A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -357,6 +361,7 @@
 				3FA0FA021C8A80A200A3398A /* GameFont@2x.xml */,
 				3FA0FA031C8A80A200A3398A /* GameFont@2x~ipad.xml */,
 				3FA0FA041C8A80A200A3398A /* GameFont~ipad.xml */,
+				3F98AF961CEA257600ADC72B /* GameFont@3x.xml */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -550,7 +555,8 @@
 		3FA0FA661C8A80A200A3398A /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				3FA0FA671C8A80A200A3398A /* Burgers.mp3 */,
+				3F98AF921CEA256800ADC72B /* Credits.txt */,
+				3F98AF931CEA256800ADC72B /* SpiritualMoments.mp3 */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -732,9 +738,10 @@
 				3FA0FA871C8A80A200A3398A /* Info.plist in Resources */,
 				3FA0FA9C1C8A80A200A3398A /* ObjectAL (OSX)-Info.plist in Resources */,
 				3FA0FA9E1C8A80A200A3398A /* Chop.caf in Resources */,
+				3F98AF951CEA256800ADC72B /* SpiritualMoments.mp3 in Resources */,
+				3F98AF941CEA256800ADC72B /* Credits.txt in Resources */,
 				3FA0FA731C8A80A200A3398A /* Default@2x.png in Resources */,
 				3FA0FA6E1C8A80A200A3398A /* GameFont@2x~ipad.xml in Resources */,
-				3FA0FA9D1C8A80A200A3398A /* Burgers.mp3 in Resources */,
 				3FA0F9D81C8A807800A3398A /* Assets.xcassets in Resources */,
 				3FA0F9D61C8A807800A3398A /* Main.storyboard in Resources */,
 				3FA0FA7F1C8A80A200A3398A /* LICENSE.ObjectAL.txt in Resources */,
@@ -749,6 +756,7 @@
 				3FA0FA781C8A80A200A3398A /* build_docs.sh in Resources */,
 				3FA0FA7B1C8A80A200A3398A /* ObjectAL-Overview1.svg in Resources */,
 				3FA0FA721C8A80A200A3398A /* Default-736h@3x.png in Resources */,
+				3F98AF971CEA257600ADC72B /* GameFont@3x.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

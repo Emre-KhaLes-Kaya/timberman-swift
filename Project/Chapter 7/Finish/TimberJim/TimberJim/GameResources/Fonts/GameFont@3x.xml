@@ -3,7 +3,7 @@
        <info aa='1' size='196' smooth='1' stretchH='100' bold='0' padding='0,0,0,0' spacing='0,0' charset='' italic='0' unicode='0' face='Mini Pixel-7'/>
        <common scaleW='896' packed='0' pages='1' lineHeight='209' scaleH='896' base='162'/>
        <pages>
-            <page id='0' file='GameFont@2x~ipad.png'/>
+            <page id='0' file='GameFont@3x.png'/>
        </pages>
         <chars count='95'>
             <char xadvance='59' x='68' chnl='0' yoffset='146' y='834' xoffset='0' id='32' page='0' height='0' width='0'/>

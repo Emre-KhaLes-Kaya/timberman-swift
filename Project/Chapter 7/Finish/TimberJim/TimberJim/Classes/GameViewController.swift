@@ -35,8 +35,8 @@ class GameViewController: UIViewController {
                 OALSimpleAudio.sharedInstance().preloadEffect("Chop.caf")
                 OALSimpleAudio.sharedInstance().preloadEffect("GameOver.caf")
                 
-                OALSimpleAudio.sharedInstance().preloadBg("Burgers.mp3")
-                OALSimpleAudio.sharedInstance().playBg("Burgers.mp3", loop: true)
+                OALSimpleAudio.sharedInstance().preloadBg("SpiritualMoments.mp3")
+                OALSimpleAudio.sharedInstance().playBg("SpiritualMoments.mp3", loop: true)
             }
         }
     }
