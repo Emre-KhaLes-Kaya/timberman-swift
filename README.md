@@ -1,4 +1,4 @@
-# Make a game like Timberman with Swift
+# Make a game like Timberman with Swift 3
 
 Learn to make 2D Games for Apple Devices by building a clone of the hit game Timberman with Swift.
 

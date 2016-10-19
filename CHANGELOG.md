@@ -1,5 +1,8 @@
 ## Changelog for timberman-swift
 
+### 10/19/2016
+- Updated to Xcode 8.0 and Swift 3.0.
+
 ### 03/25/2016
 - Added "Requires full screen" to project settings to use launch images in lieu of LaunchScreen.xib.
 - Replaced BMGlyphFont/BMGlyphLabel libraries with original Objective-C version.
