@@ -26,7 +26,6 @@ git reset —-hard origin/master
 
 <p align="center">
  <a href="https://itunes.apple.com/us/book/id1092729922" target="_blank"><img align="center" src="http://linkmaker.itunes.apple.com/images/badges/en-us/badge_ibooks-lrg.svg"/></a>
- <a href="http://www.amazon.com/gp/product/B01CUW63L0" target="_blank""><img align="center" src="http://i.imgur.com/hXIeBLd.jpg?1" width="12.5%"/></a>
 </p>
 
 <p align="center">
